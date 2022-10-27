@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    color: rgb(185, 4, 4);
+}
+#b2{
+    background-color:rgb(185, 4, 4);
+    color: white;
+    height: 25px;
+    width: 85px;
+}
+#b2:hover{
+    background-color:white;
+    color: rgb(185, 4, 4);
+}
+h3{
+    text-align: center;
+    color:white;
+}
+p{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
+button{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+body{
+    background-image: url("./images/abc.jpg");
+    background-size: cover;
+}
+#row1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.col{
+    height: 400px;
+    width: 23%;
+    border: white 2px double;
+    border-radius: 40px;
+    float: left;
+    box-shadow: 10px 10px 5px rgb(87, 93, 95);;
+}
+.col-1{
+    background-image: url("./images/chicken-biriyani.jpg");
+    background-size: cover;
+}
+.col-2{
+    background-image: url("./images/porotta.jpg");
+    background-size: cover;
+}
+.col-3{
+    background-image: url("./images/chappathi.webp");
+    background-size: cover;
+}
+.col-4{
+    background-image: url("./images/poorimasala.jpg");
+    background-size: cover;
+}
+.col-5{
+    background-image: url("./images/alfam.jpg");
+    background-size: cover;
+}
+.col-6{
+    background-image: url("./images/karimeen.png");
+    background-size: cover;
+}
+.col-7{
+    background-image: url("./images/BEEF\ FRY.jpg");
+    background-size: cover;
+}
+.col-8{
+    background-image: url("./images/MASALA.jpg");
+    background-size: cover;
+}
